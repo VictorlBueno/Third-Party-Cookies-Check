@@ -35,10 +35,12 @@ const cookieTest = (iFrameUri, callBack) => {
 
 // Call the cookieTest function with the provided URL and a callback function.
 cookieTest('https://victor.com.de/cookiescheck/', (result) => {
-  // If cookies is not accepted
+  // If cookies are not accepted
   if(!result) {
-    // YOUR CODE ....
+    // YOUR ALTERNATIVE CODE
+    
+  // If cookies are accepted
   } else {
-    // YOUR CODE ....
+    // YOUR MAIN CODE
   }
 });
