@@ -10,7 +10,7 @@
 </ul>
 
 # Case of use
-<p>Some browsers have settings to block third-party cookies, and if a user with this configuration accesses a website that has content requiring third-party cookies authorization, the content generates an error and is not displayed to the user. By using this code, it is possible to check if the user's browser allows cookies and create a conditional statement to show alternative content in case the browser blocks third-party cookies. This way, it prevents the user from encountering an error message or having a poor experience.</p>
+<p>Some browsers have settings to block third-party cookies, and if a user with this configuration accesses a website that has content requiring third-party cookies authorization, the content generates an error and is not displayed to the user. By using this code, it is possible to check if the user's browser allows cookies and create a conditional statement to show alternative content in case the browser blocks third-party cookies. This way, it prevents the user from encountering an error message or having a bad experience.</p>
 
 # How it works
 Suppose a website utilizes iframes to embed third-party content. Before loading and interacting with this content, the parent window wants to verify if cookies are enabled in the user's browser. 
