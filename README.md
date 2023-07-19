@@ -1,5 +1,5 @@
 # What Cookies Check do? 🍪✔️
-<p>This JavaScript code demonstrates a simple method to check if the user's web browser supports and allows the use of cookies. Cookies are small pieces of data stored in the user's browser, often used to remember information between visits or track user activities on a website. This code aims to verify whether the browser allows cookies and provides a reliable mechanism to check this capability.</p>
+<p>A simple method to check if the user's web browser supports and allows the use of cookies. Cookies are small pieces of data stored in the user's browser, often used to remember information between visits or track user activities on a website. This code aims to verify whether the browser allows cookies and provides a reliable mechanism to check this capability.</p>
 <ul>
   <li>Checks if the user's browser supports cookies.</li>
   <li>Handles browsers that don't support <code>navigator.cookieEnabled</code>.</li>
