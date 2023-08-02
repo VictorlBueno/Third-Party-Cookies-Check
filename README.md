@@ -1,14 +1,14 @@
 # What Cookies Check does? 🍪✔️
 <p>This simple method verifies that the user's web browser supports and allows the use of cookies, allowing for a reliable experience when using content that requires cookies. By checking the browser's compatibility with cookies, this code prevents possible error messages or malfunctions. Its purpose is to reliably check if the browser allows cookies and create a conditional statement based on the result.</p>
 
-<ul>
-  <li>Checks if the user's browser supports cookies.</li>
-  <li>Handles browsers that don't support <code>navigator.cookieEnabled</code>.</li>
-  <li>Verifies if the browser allows third-party cookies, avoiding errors.</li>
-  <li>Provides a reliable mechanism for smooth user experience.</li>
-  <li>Enables displaying alternative content when third-party cookies are blocked.</li>
-  <li>Prevents user-facing errors due to cookie-related issues.</li>
-</ul>
+
+- [X] Checks if the user's browser supports cookies.
+- [X] Handles browsers that don't support <code>navigator.cookieEnabled</code>.
+- [X] Verifies if the browser allows third-party cookies, avoiding errors.
+- [X] Provides a reliable mechanism for smooth user experience.
+- [X] Enables displaying alternative content when third-party cookies are blocked.
+- [X] Prevents user-facing errors due to cookie-related issues.
+
 
 # Case of use
 <p>Some browsers have settings to block third-party cookies, and if a user with this configuration accesses a website that has content requiring third-party cookies authorization, the content generates an error and is not displayed to the user. By using this code, it is possible to check if the user's browser allows cookies and create a conditional statement to show alternative content in case the browser blocks third-party cookies. This way, it prevents the user from encountering an error message or having a bad experience.</p>
