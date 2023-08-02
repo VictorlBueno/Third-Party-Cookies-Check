@@ -38,7 +38,9 @@ cookieTest('https://victor.com.de/cookiescheck/', (result) => {
 ```
 
 # Conclusion
-The JavaScript code provides a reliable way to check if cookies are supported in the user's web browser. By using the navigator.cookieEnabled property and setting a test cookie, the code ensures a comprehensive approach to determine cookie support. This functionality is valuable for websites and web applications that depend on cookies for essential functionalities or personalized user experiences. By being aware of cookie support, developers can tailor their websites to provide the best possible user experience for all visitors.
+The JavaScript code provides a reliable way to check if cookies are supported in the user's web browser. By using the navigator.cookieEnabled property and setting a test cookie, the code ensures a comprehensive approach to determine cookie support. 
+
+This functionality is valuable for websites and web applications that depend on cookies for essential functionalities or personalized user experiences. By being aware of cookie support, developers can tailor their websites to provide the best possible user experience for all visitors.
  
 #
 <h6>Links&ensp;&ensp;&ensp;&ensp;
