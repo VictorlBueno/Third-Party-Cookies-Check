@@ -28,11 +28,11 @@ Suppose a website utilizes iframes to embed third-party content. Before loading 
 // Call the cookieTest function with the provided URL and a callback function.
 // You can change this website to another one where you implemented the support page code (which needs to be at a different domain than the main page code).
 cookieTest('https://victor.com.de/cookiescheck/', (result) => {
-  // If cookies is not accepted
-  if(!result) {
-    // YOUR ALTERNATIVE CODE HERE
-  } else {
+  // If cookies is accepted
+  if(result) {
     // YOUR ORIGINAL CODE HERE
+  } else {
+    // YOUR ALTERNATIVE CODE HERE
   }
 }
 ```
