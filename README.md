@@ -1,4 +1,4 @@
-# What Cookies Check does? 🍪✔️
+# What Cookies Check do? 🍪✔️
 <p>This simple method verifies that the user's web browser supports and allows the use of cookies, allowing for a reliable experience when using content that requires cookies. By checking the browser's compatibility with cookies, this code prevents possible error messages or malfunctions. Its purpose is to reliably check if the browser allows cookies and create a conditional statement based on the result.</p>
 
 
